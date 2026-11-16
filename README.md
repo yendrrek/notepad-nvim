@@ -18,6 +18,14 @@ git clone <repository-url> ~/.config/notepad
 alias np='NVIM_APPNAME=notepad nvim'
 ```
 
+To open Notepad in a new kitty window instead of the current terminal, define a function:
+
+```bash
+np() {
+    kitty --detach --class notepad env NVIM_APPNAME=notepad nvim "$@"
+}
+```
+
 `NVIM_APPNAME=notepad` makes Neovim read `~/.config/notepad` and keep its plugins and state in
 `notepad` directories. Add the alias to your shell configuration.
 
