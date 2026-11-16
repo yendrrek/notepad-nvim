@@ -1,0 +1,16 @@
+{
+  "plugins": {
+    "heritage-themes.nvim": {
+      "rev": "5091aed52cbc972402e418da862f34a9adcce2df",
+      "src": "https://github.com/heritage-themes/heritage-themes.nvim"
+    },
+    "markdown-preview.nvim": {
+      "rev": "a923f5fc5ba36a3b17e289dc35dc17f66d0548ee",
+      "src": "https://github.com/iamcco/markdown-preview.nvim"
+    },
+    "render-markdown.nvim": {
+      "rev": "8801162e041e34c64d0d1397cd1f353a14b01950",
+      "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
+    }
+  }
+}
