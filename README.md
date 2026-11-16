@@ -14,7 +14,7 @@ One `init.lua`, plugins installed by Neovim's built-in `vim.pack`.
 ## Install
 
 ```bash
-git clone <repository-url> ~/.config/notepad
+git clone https://github.com/yendrrek/notepad-nvim.git ~/.config/notepad
 alias np='NVIM_APPNAME=notepad nvim'
 ```
 
