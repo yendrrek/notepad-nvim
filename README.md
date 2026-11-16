@@ -23,6 +23,18 @@ alias np='NVIM_APPNAME=notepad nvim'
 
 The first launch installs the plugins and pins them in `nvim-pack-lock.json`.
 
+## Application launcher
+
+`notepad.desktop` adds Notepad to the application launcher and to "Open With" for text and
+markdown files. It opens a new kitty window. Edit `Exec` to use another terminal.
+
+```bash
+install -Dm644 notepad.desktop ~/.local/share/applications/notepad.desktop
+```
+
+Opening a file while Notepad is running adds it as a tab in the running instance. The new
+window closes, and the running window does not come to the front.
+
 ## Behaviour
 
 | Feature | Detail |

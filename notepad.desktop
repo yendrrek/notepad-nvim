@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Notepad
+Comment=Notepad-style Neovim
+Exec=kitty --class notepad env NVIM_APPNAME=notepad nvim %F
+Icon=nvim
+Terminal=false
+Categories=Utility;TextEditor;
+MimeType=text/plain;text/markdown;
+StartupWMClass=notepad
