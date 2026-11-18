@@ -52,6 +52,7 @@ window closes, and the running window does not come to the front.
 | Single instance | `np file` from another terminal opens `file` as a tab in the running instance. Any flag (`-M`, `-d`, `-c`) starts a standalone instance. |
 | New files | A file opened with `:e`, `gf` or a picker gets its own tab. |
 | Closing | Closing a tab or `:bd` drops the file from the next launch. A tab with unsaved edits stays open in the background. |
+| Quitting | `:q` on the last tab quits Notepad and keeps the file for the next launch. `:bd` on the last tab drops the file and leaves an empty tab. |
 
 ## Keymaps
 
